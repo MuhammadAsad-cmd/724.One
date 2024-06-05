@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import ArraySample from './Components/Array/ArraySample';
+import AddUser from './Components/Crud/AddUser';
+import UserList from './Components/Crud/UserList';
+import CrudTable from './Components/CrudTable/CrudTable';
+import ButtonBtn from './Components/CustomButton/ButtonBtn';
+import MultiStepFormMain from './Components/MultiStepForm/MultiStepFormMain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <div className='flex p-10 gap-16'>
+      <div className='w-full max-w-[400px]'>
+      <h1 className='text-3xl font-semibold'>Add Users</h1>
+       <AddUser />
+      </div>
+      <UserList />
+      </div>
+
+      <ButtonBtn/>
+      <ArraySample/> */}
+      {/* <CrudTable/> */}
+      <MultiStepFormMain/>
+    </>
   );
 }
 
