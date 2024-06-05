@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import axios from "axios";
-import CreateModal from "./CreateModal"; // Adjust the path as needed
+import CreateModal from "./CreateModal";
 
 const API_URL = "https://jsonplaceholder.typicode.com/posts";
 
