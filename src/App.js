@@ -8,7 +8,7 @@ import MultiStepFormMain from './Components/MultiStepForm/MultiStepFormMain';
 function App() {
   return (
     <>
-    {/* <div className='flex p-10 gap-16'>
+    <div className='flex p-10 gap-16'>
       <div className='w-full max-w-[400px]'>
       <h1 className='text-3xl font-semibold'>Add Users</h1>
        <AddUser />
@@ -17,8 +17,8 @@ function App() {
       </div>
 
       <ButtonBtn/>
-      <ArraySample/> */}
-      {/* <CrudTable/> */}
+      <ArraySample/>
+      <CrudTable/>
       <MultiStepFormMain/>
     </>
   );
