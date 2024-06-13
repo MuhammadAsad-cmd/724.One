@@ -35,7 +35,7 @@ const CrudTable = () => {
     setLoading(true);
     try {
       const response = await axios.post(API_URL, newItem);
-      setData([...data, response.data]); // Add new data to the end
+      setData([...data, response.data]);
     } catch (error) {
       console.error("Error creating data:", error);
     } finally {

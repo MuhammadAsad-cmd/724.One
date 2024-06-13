@@ -6,9 +6,7 @@ const MultiStep1 = ({ nextStep, setFormData, formData }) => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm({
-    defaultValues: formData,
-  });
+  } = useForm({ defaultValues: formData });
 
   const onSubmit = (data) => {
     setFormData({ ...formData, ...data });

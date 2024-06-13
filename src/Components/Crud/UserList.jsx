@@ -4,9 +4,9 @@ import UpdateUser from "./UpdateUser";
 import { deleteUser } from "../../Features/usersSlice";
 
 const UserList = () => {
+  const [editingUserId, setEditingUserId] = useState(null);
   const users = useSelector((state) => state.users.users);
   const dispatch = useDispatch();
-  const [editingUserId, setEditingUserId] = useState(null);
 
   return (
     <>
